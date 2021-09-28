@@ -243,7 +243,7 @@ var loadTasks = function() {
     //look through savedTasks array
     for (var i = 0; i < savedTasks.length; i++) {
         //pass each task object into the 'createTaskEl' func
-        createTaskEl(saveTasks[i]);
+        createTaskEl(savedTasks[i]);
     };
 };
 
